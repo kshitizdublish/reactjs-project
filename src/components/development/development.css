@@ -1,0 +1,48 @@
+.development-component {
+    display: inline-flex;
+    width: 100%;
+}
+
+.left-panel {
+    background: #dcdcdc;
+    border: 1px solid #000;
+    width: 20%;
+}
+
+.right-panel {
+    background: #f0f8ff;
+    border: 1px solid #000;
+    width: 80%;
+    padding: 10px;
+}
+
+.menu-heading {
+    text-align: center;
+}
+
+.vertical-menu ul {
+    padding: 0;
+}
+
+.vertical-menu li {
+    background-color: #eee;
+    color: #000;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    border-bottom: 1px solid #dcdcdc;
+    cursor: pointer;
+}
+
+.vertical-menu li:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu li.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.inactive-tab {
+    display: none;
+}

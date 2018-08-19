@@ -1,0 +1,33 @@
+.app-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 46px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.nav-bar {
+  height: 45px;
+  background-color: #636363;
+  display: flex;
+}
+
+.routing-ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.routing-links {
+  padding: 10px;
+}
+
+.profile-ul {
+  float: right;
+  list-style: none;
+  position: absolute;
+  right: 2%;
+  display: flex;
+}

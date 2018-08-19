@@ -1,0 +1,31 @@
+.alert-success {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    border-radius: 0;
+    display: none;
+}
+
+.register-form {
+    width: 40%;
+    height: 55%;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    background-color: #deb887;
+    border: 1px solid #000;
+    padding: 35px;
+}
+
+.block-element {
+    display: -webkit-flex;
+}
+
+.register-btn-panel {
+    text-align: center;
+}
+
+.btn-success {
+    width: 120px;
+    border-radius: 20px;
+}
